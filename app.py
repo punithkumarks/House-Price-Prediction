@@ -14,7 +14,7 @@ st.write("choose a model to predict the house price in ames city limits")
 
 @st.cache_data
 def load_data():
-    df=pd.read_csv(r"C:\Users\punit\Downloads\Ames_Housing_Subset.csv")
+    df=pd.read_csv("Ames_Housing_Subset.csv")
     return df
 
 df1=load_data()
